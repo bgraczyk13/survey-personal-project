@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Web Development Survey Form</h1>
+    <p id="description">This example survey was built using HTML and CSS</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name"
+          >Name:
+          <input id="name" type="text" placeholder="Enter your name" required />
+        </label>
+        <label id="email-label" for="email"
+          >Email:
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+        /></label>
+        <label id="number-label" for="number"
+          >Age:
+          <input
+            id="number"
+            type="number"
+            min="10"
+            max="99"
+            placeholder="Enter your age"
+            required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown"
+          >Years of programming experience:
+          <select id="dropdown">
+            <option value>(choose below)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5+</option>
+            <option value="6">10+</option>
+          </select>
+        </label>
+      </fieldset>
+    </form>
+  </body>
+</html>
