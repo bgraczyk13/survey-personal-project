@@ -34,6 +34,37 @@
         /></label>
       </fieldset>
       <fieldset>
+        <legend>Choose you area of focus:</legend>
+        <label for="front-end">
+          <input
+            id="front-end"
+            type="radio"
+            name="focus-area"
+            value="Front-end"
+            checked
+          />
+          Front-end Development
+        </label>
+        <label for="back-end">
+          <input
+            id="back-end"
+            type="radio"
+            name="focus-area"
+            value="Back-end"
+          />
+          Back-end Development
+        </label>
+        <label for="full-stack">
+          <input
+            id="full-stack"
+            type="radio"
+            name="focus-area"
+            value="Full-stack"
+          />
+          Full-stack
+        </label>
+      </fieldset>
+      <fieldset>
         <label for="dropdown"
           >Years of programming experience:
           <select id="dropdown">
@@ -45,6 +76,45 @@
             <option value="5">5+</option>
             <option value="6">10+</option>
           </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <p>Choose all skills that apply:</p>
+        <label>
+          <input
+            name="skills"
+            value="HTML"
+            type="checkbox"
+            class="skills-checkbox"
+          />
+          HTML
+        </label>
+        <label>
+          <input
+            name="skills"
+            value="CSS"
+            type="checkbox"
+            class="skills-checkbox"
+          />
+          CSS
+        </label>
+        <label>
+          <input
+            name="skills"
+            value="Javascript"
+            type="checkbox"
+            class="skills-checkbox"
+          />
+          Javascript
+        </label>
+        <label>
+          <input
+            name="skills"
+            value="React"
+            type="checkbox"
+            class="skills-checkbox"
+          />
+          React
         </label>
       </fieldset>
     </form>
